@@ -121,6 +121,14 @@ This aligns machine learning outcomes with **business objectives**.
 
 ---
 
+## 🌐 Live Demo
+
+The deployed Gradio application is available on Hugging Face Spaces:
+
+🔗 **Live App:** https://huggingface.co/spaces/DheivaCodes/CHURN_PREDICTION
+
+---
+
 ## 🛠️ Tech Stack
 
 - **Programming Language:** Python  
