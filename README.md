@@ -65,13 +65,25 @@ This project focuses on:
 
 ## 🧠 Model Performance Highlights
 
-- Accuracy achieved: **82% – 86%**  
-- ROC-AUC up to **0.91**  
-- Random Forest + SMOTETomek delivered the **highest business ROI (>550%)**  
-- Consistent churn drivers across datasets:
-  - Tenure  
-  - Contract type  
-  - Monthly charges  
+- The proposed churn prediction framework is evaluated on three telecom datasets: UCI Churn, Churn-in-Telecom, and IBM Telco  
+- Best-performing models differ across datasets based on data characteristics and imbalance handling strategies  
+
+- **UCI Churn Dataset**
+  - Random Forest with SMOTE achieves the highest performance
+  - Accuracy: **97.9%**, ROC-AUC: **0.915**, MCC: **0.889**
+  - Maximum profit: **$65,580**, ROI: **896.8%**
+
+- **Churn-in-Telecom Dataset**
+  - Gradient Boosting with SMOTE performs best
+  - Accuracy: **96.7%**, ROC-AUC: **0.886**, MCC: **0.757**
+  - Maximum profit: **$43,060**, ROI: **892.9%**
+
+- **IBM Telco Dataset**
+  - Random Forest with SMOTETomek yields the highest business impact
+  - Accuracy: **76.7%**, ROC-AUC: **0.839**, MCC: **0.511**
+  - Maximum profit: **$158,880**, ROI: **551.5%**
+
+- SHAP-based explainability consistently identifies **tenure, contract type, and monthly charges** as key churn-driving factors across datasets
 
 ---
 
